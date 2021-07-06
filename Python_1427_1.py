@@ -6,9 +6,9 @@
 첫째 줄에 자리수를 내림차순으로 정렬한 수를 출력한다.
 """
 
-a=list(input())
-a.sort()
-num=-1
+a=list(input()) # 문자열을 입력받아서 리스트 a에 저장(한 글자씩 저장된다.)
+a.sort() # 리스트 a를 오름차순으로 정렬하기
+num=-1 # 변수 num 선언 및 초기화
 
 for x in range(len(a)):
     print(a[num], end="")
