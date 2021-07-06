@@ -11,5 +11,5 @@ a.sort() # 리스트 a를 오름차순으로 정렬하기
 num=-1 # 변수 num 선언 및 초기화
 
 for x in range(len(a)): # x에 0부터 (a의 길이-1)까지 넣어가며 반복
-    print(a[num], end="") # 리스트 a를 끝에서부터 한 줄에 출력하기
-    num-=1
+    print(a[num], end="") # 리스트 a를 마지막 요소부터 한 줄에 출력하기
+    num-=1 # num에 num-1 대입하기
